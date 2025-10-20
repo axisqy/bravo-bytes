@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/bravo-bytes/", // <--- ADD THIS LINE
   server: {
     host: "::",
     port: 8080,
